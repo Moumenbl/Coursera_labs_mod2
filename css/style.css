@@ -6,25 +6,34 @@
 
 
 @keyframes example {
-  from {background-color: lightblue;}
-  to {background-color: purple;}
+  from {background-color: #4dffff;}
+  to {background-color: #000000;}
 }
-body {
-    font-family: 'Suez One', serif;
-}
+.multicolortext {
+        background-image: linear-gradient(to left,#ccffff, #4dffff, #00cccc, #006666,  #001a1a, #000000 );
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
 
 h1{
 	color: #5c85d6;
 	text-align: center;
 	margin-bottom: 100px;
 	margin-top: 30px;
-	font-size: 75%;
+	font-size: 75px;
+	font-family: 'Satisfy', cursive;
 }
 h2{
 	float: right;
 	border: 1px solid black;
 	padding: 10px;
-	font-size: 25%;
+	font-size: 25px;
+	font-family: 'Satisfy', cursive;
+	padding: 10px;
+	
+
 }
 #header1{
 	background-color: red;
@@ -38,7 +47,7 @@ h2{
 }
 #header3{
 	background-color: yellow;
-	color: white;
+	color: black;
 }
 
 .row{
@@ -49,7 +58,7 @@ div{
 	margin-right: 2%;
 	background-color: lightblue;
   animation-name: example;
-  animation-duration: 15s;
+  animation-duration: 7s;
 }
 
 p{
@@ -59,6 +68,7 @@ p{
 	padding: 15px;
 	height: 40%;
 	width: 100%;
+	font-family: 'Piedra', cursive;
 	
 }
 
