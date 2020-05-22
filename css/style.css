@@ -211,8 +211,9 @@ p{
 		float: right;
 		background-color: lightblue;
 		border: 1px solid black;
-		margin-bottom: 15px;
-		
+		margin-bottom: 10px;
+		margin-left:  6px;
+		margin-right: 6px;
 
 	}
 	.col-sm-1{
@@ -262,7 +263,7 @@ p{
 
 	}
 	.col-sm-11{
-		width: 92%;
+		width: 96%;
 	}
 	.col-sm-12{
 		width: 100%;
