@@ -48,21 +48,24 @@ div{
 
 }
 section{
+
 	background-color: #adebeb;
 	width: 100%;
 	height: 180px;
 	color:#CCABEE;
 	position: relative;
 	border: 1px solid black;
+	overflow: auto;
 
 
 }
 
 p{
+	padding: 40px;
 	
 	background-color: #adebeb;
 	color: black;
-	padding: 10%;
+
 	font-family: 'Piedra', cursive;
 	margin: 0;
 
